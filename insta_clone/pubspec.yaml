@@ -23,3 +23,7 @@ flutter:
       fonts:
         - asset: fonts/Billabong.ttf
   uses-material-design: true
+
+  assets:
+      - images/testone.jpg
+      - images/testtow.jpg

@@ -35,22 +35,94 @@ class FirstTab extends StatelessWidget {
       ),
       backgroundColor: new Color(0xfff0f0f0),
       body: new Container(
-        child: new Center(
-          child: new Column(
-            // center the children
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              new Icon(
-                Icons.favorite,
-                size: 160.0,
-                color: Colors.white,
+        child: new Column(
+          children: <Widget>[
+            new Container(
+              height: 96.0,
+              child: new ListView(
+                scrollDirection: Axis.horizontal,
+                children: <Widget>[
+                  new Padding(
+                      padding: new EdgeInsets.all(8.0),
+                      child: new Container(
+                          width: 80.0,
+                          height: 80.0,
+                          decoration: new BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: new DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: new NetworkImage(
+                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                  new Padding(
+                      padding: new EdgeInsets.all(8.0),
+                      child: new Container(
+                          width: 80.0,
+                          height: 80.0,
+                          decoration: new BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: new DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: new NetworkImage(
+                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                  new Padding(
+                      padding: new EdgeInsets.all(8.0),
+                      child: new Container(
+                          width: 80.0,
+                          height: 80.0,
+                          decoration: new BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: new DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: new NetworkImage(
+                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                  new Padding(
+                      padding: new EdgeInsets.all(8.0),
+                      child: new Container(
+                          width: 80.0,
+                          height: 80.0,
+                          decoration: new BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: new DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: new NetworkImage(
+                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                  new Padding(
+                      padding: new EdgeInsets.all(8.0),
+                      child: new Container(
+                          width: 80.0,
+                          height: 80.0,
+                          decoration: new BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: new DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: new NetworkImage(
+                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                  new Padding(
+                      padding: new EdgeInsets.all(8.0),
+                      child: new Container(
+                          width: 80.0,
+                          height: 80.0,
+                          decoration: new BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: new DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: new NetworkImage(
+                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                  new Padding(
+                      padding: new EdgeInsets.all(8.0),
+                      child: new Container(
+                          width: 80.0,
+                          height: 80.0,
+                          decoration: new BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: new DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: new NetworkImage(
+                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                ],
               ),
-              new Text(
-                "First Tab",
-                style: new TextStyle(color: Colors.white),
-              )
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

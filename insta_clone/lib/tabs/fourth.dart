@@ -17,7 +17,7 @@ class FourthTab extends StatelessWidget {
         // Set the background color of the App Bar
         backgroundColor: new Color(0xfff0f0f0)),
 
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: new Container(
         child: new Center(
           child: new Column(
@@ -25,13 +25,13 @@ class FourthTab extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Icon(
-                Icons.airport_shuttle,
+                Icons.done,
                 size: 160.0,
-                color: Colors.white,
+                color: Colors.black,
               ),
               new Text(
-                "Fourth Tab",
-                style: new TextStyle(color: Colors.white),
+                "No notifications",
+                style: new TextStyle(color: Colors.black),
               )
             ],
           ),

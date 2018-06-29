@@ -4,6 +4,13 @@ class FirstTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      appBar: new AppBar(
+        // Title
+          title:
+          new Text("Instagram", style: TextStyle(fontFamily: 'Billabong')),
+          // Set the background color of the App Bar
+          backgroundColor: Colors.blue,
+          centerTitle: true),
       backgroundColor: Colors.red,
       body: new Container(
         child: new Center(

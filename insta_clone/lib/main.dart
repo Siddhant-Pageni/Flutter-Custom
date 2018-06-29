@@ -40,12 +40,6 @@ class MyHomeState extends State<MyHome> with SingleTickerProviderStateMixin {
   Widget build(BuildContext context) {
     return new Scaffold(
       // Appbar
-      appBar: new AppBar(
-        // Title
-        title: new Text("Using Bottom Navigation Bar"),
-        // Set the background color of the App Bar
-        backgroundColor: Colors.blue,
-      ),
       // Set the TabBar view as the body of the Scaffold
       body: new TabBarView(
         // Add tabs as widgets

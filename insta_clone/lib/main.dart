@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:insta_clone/tabs/first.dart';
 import 'package:insta_clone/tabs/second.dart';
 import 'package:insta_clone/tabs/third.dart';
+import 'package:insta_clone/tabs/fourth.dart';
 
 void main() {
   runApp(new MaterialApp(
       // Title
-      title: "Using Tabs",
+      title: "Instagram Clone",
       // Home
       home: new MyHome()));
 }
@@ -47,7 +48,7 @@ class MyHomeState extends State<MyHome> with SingleTickerProviderStateMixin {
           new FirstTab(),
           new SecondTab(),
           new ThirdTab(),
-          new ThirdTab(),
+          new FourthTab(),
           new ThirdTab(),
         ],
         // set the controller

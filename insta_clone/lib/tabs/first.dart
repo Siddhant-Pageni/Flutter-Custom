@@ -52,7 +52,7 @@ class FirstTab extends StatelessWidget {
                               image: new DecorationImage(
                                   fit: BoxFit.fill,
                                   image: new NetworkImage(
-                                      "https://i.imgur.com/BoN9kdC.png"))))),
+                                      "https://instagram.fktm3-1.fna.fbcdn.net/vp/524d1025b2df5ae38329260fe8d42300/5BDF3C7E/t51.2885-19/s150x150/34186137_1061579217351425_3199359905165213696_n.jpg"))))),
                   new Padding(
                       padding: new EdgeInsets.all(8.0),
                       child: new Container(

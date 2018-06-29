@@ -22,24 +22,21 @@ class ThirdTab extends StatelessWidget {
         // Set the background color of the App Bar
         backgroundColor: new Color(0xfff0f0f0)),
 
-      backgroundColor: Colors.orange,
+      backgroundColor: Colors.white,
       body: new Container(
-        child: new Center(
-          child: new Column(
-            // center the children
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              new Icon(
-                Icons.airport_shuttle,
-                size: 160.0,
-                color: Colors.white,
-              ),
-              new Text(
-                "Third Tab",
-                style: new TextStyle(color: Colors.white),
-              )
-            ],
-          ),
+        child: new Row(
+          children: <Widget>[
+            new Column(
+              children: <Widget>[
+                new Image.asset('images/testtow.jpg'),
+              ],
+            ),
+            new Column(
+              children: <Widget>[
+                new IconButton(icon: new Icon(Icons.av_timer, color: Colors.black,), onPressed: null,),
+              ],
+            )
+          ],
         ),
       ),
     );

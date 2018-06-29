@@ -122,9 +122,32 @@ class FirstTab extends StatelessWidget {
                 ],
               ),
             ),
+            new Expanded(
+                child: new ListView(
+              scrollDirection: Axis.vertical,
+              children: <Widget>[
+                getPost(""),
+                getPost(""),
+                getPost(""),
+              ],
+            )),
           ],
         ),
       ),
     );
+  }
+
+  Widget getPost(String s) {
+    String ss = "https://i.ytimg.com/vi/mSnMTMlJzME/maxresdefault.jpg";
+    return new Padding(
+        padding: new EdgeInsets.all(16.00),
+        child: new Container(
+            color: Colors.white,
+            child: new Container(
+                height: 300.0,
+                decoration: new BoxDecoration(
+                    shape: BoxShape.rectangle,
+                    image: new DecorationImage(
+                        fit: BoxFit.cover, image: new NetworkImage(ss))))));
   }
 }

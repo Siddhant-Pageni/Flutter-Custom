@@ -14,9 +14,9 @@ class ThirdTab extends StatelessWidget {
           ),
         ),
         actions: <Widget>[
-          new IconButton(icon: new Icon(Icons.av_timer, color: Colors.black,)),
-          new IconButton(icon: new Icon(Icons.person_add, color: Colors.black,)),
-          new IconButton(icon: new Icon(Icons.more_vert, color: Colors.black,)),
+          new IconButton(icon: new Icon(Icons.av_timer, color: Colors.black,), onPressed: null,),
+          new IconButton(icon: new Icon(Icons.person_add, color: Colors.black,), onPressed: null,),
+          new IconButton(icon: new Icon(Icons.more_vert, color: Colors.black,), onPressed: null,),
         ],
 
         // Set the background color of the App Bar
